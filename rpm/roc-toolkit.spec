@@ -1,4 +1,4 @@
-%define name roc-toolkit-dev
+%define name roc-toolkit
 %define reponame roc-toolkit
 %define version 0.1.5
 %define build_timestamp %{lua: print(os.date("%Y%m%d"))}
@@ -19,7 +19,7 @@ BuildRequires: libunwind-devel
 BuildRequires: pulseaudio-libs-devel
 BuildRequires: sox-devel
 BuildRequires: cmake
-BuildRequires: git >= 2.1
+BuildRequires: git
 Requires: libuv
 Requires: libunwind
 Requires: pulseaudio-libs
