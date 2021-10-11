@@ -35,7 +35,7 @@ Basically, Roc is a network transport, highly specialized for the real-time
 streaming use case. The user writes the stream to the one end and reads it from
 another end, and Roc deals with all the complexity of the task of delivering
 data in time and with no loss. Encoding, decoding, adjusting rates, restoring
-losses -- all these are performed transparently under the hood.
+losses - all these are performed transparently under the hood.
 
 The project is conceived as a swiss army knife for real-time streaming. It is
 designed to support a variety of network protocols, encodings, FEC schemes, and
