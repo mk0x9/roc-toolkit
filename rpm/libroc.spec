@@ -7,7 +7,7 @@ Summary: Roc Toolkit provides real-time audio streaming over network
 Name: %{name}
 Version: %{version}
 Release: %{build_timestamp}
-Source0: https://github.com/mk0x9/roc-toolkit/master.zip#/%{name}-%{version}-%{release}.zip
+Source0: https://github.com/mk0x9/roc-toolkit/archive/refs/heads/master.tar.gz#/%{name}-%{version}-%{release}.tar.gz
 License: MPL-2.0
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: gcc-c++
